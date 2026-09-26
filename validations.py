@@ -1,3 +1,5 @@
+from operations import np
+
 def get_vector(message):
     while True:
         user_input = input(message).strip()
