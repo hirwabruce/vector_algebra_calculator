@@ -1,9 +1,6 @@
 from operations import add, subtract, dot_product
 from operations import np
-
-
-
-
+from validations import get_vector
 
 print("Welcome to the Vector Algebra Calculator!")
 
