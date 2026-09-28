@@ -8,3 +8,6 @@ def subtract(a,b):
 
 def dot_product(a,b):
     return np.dot(a,b)
+
+def cross_product(a,b):
+    return np.cross(a,b)
