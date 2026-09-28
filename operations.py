@@ -11,3 +11,6 @@ def dot_product(a,b):
 
 def cross_product(a,b):
     return np.cross(a,b)
+
+def magnitude(a):
+    return np.linalg.norm(a)
