@@ -1,4 +1,4 @@
-from operations import add, subtract, dot_product
+from operations import add, cross_product, subtract, dot_product
 from operations import np
 from validations import get_vector
 
@@ -21,3 +21,6 @@ else:
 
     dot_product_result = dot_product(a, b)
     print("The result of the dot product of the vectors is:", dot_product_result)
+
+    cross_product_result = cross_product(a, b)
+    print("The result of the cross product of the vectors is:", cross_product_result)
