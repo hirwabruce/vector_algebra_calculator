@@ -24,3 +24,7 @@ else:
 
     cross_product_result = cross_product(a, b)
     print("The result of the cross product of the vectors is:", cross_product_result)
+    magnitude_a = np.linalg.norm(a)
+    magnitude_b = np.linalg.norm(b)
+    print("The magnitude of the first vector is:", magnitude_a)
+    print("The magnitude of the second vector is:", magnitude_b)
